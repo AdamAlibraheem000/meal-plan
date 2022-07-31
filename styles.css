@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1.5;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.btns-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btns-flex button{
+    font-size: 1.5rem;
+    margin: 15px 0;
+    height: 60px;
+    width: 150px;
+}
+
+
+.macros-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+
+.macros-container label{
+    font-size: 2.5rem;
+}
+
+.macros-container input{
+    font-size: 2.3rem;
+}
+
+.btn-reset-cont{
+    height: 60px;
+    width: 150px;
+}
+
+#btn-reset{
+    font-size: 1.5rem;
+    height: 60px;
+    width: 150px;
+}
+
